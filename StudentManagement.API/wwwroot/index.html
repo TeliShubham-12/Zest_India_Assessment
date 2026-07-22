@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <span class="logo-icon">🎓</span>
+                <span class="brand-name">Student Management System</span>
+            </div>
+            <div class="user-status" id="user-status-container">
+                <span id="user-info-text">Not Logged In</span>
+                <button id="btn-quick-admin" class="btn btn-sm btn-outline">Demo Admin Login</button>
+                <button id="btn-logout" class="btn btn-sm btn-danger hidden">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Section 1: Authentication (Login & Register) -->
+        <section class="card auth-card">
+            <div class="auth-tabs">
+                <button class="tab-btn active" id="tab-login">Login</button>
+                <button class="tab-btn" id="tab-register">Register</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="login-form" class="form-content">
+                <h3>User Login</h3>
+                <p class="form-desc">Enter your credentials to get a JWT bearer token.</p>
+                <div class="form-group">
+                    <label for="login-username">Username</label>
+                    <input type="text" id="login-username" value="admin" required placeholder="Username (default: admin)">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" value="Admin@123" required placeholder="Password (default: Admin@123)">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+
+            <!-- Register Form -->
+            <form id="register-form" class="form-content hidden">
+                <h3>Register Account</h3>
+                <p class="form-desc">Create a new user account.</p>
+                <div class="form-group">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" required placeholder="Choose a username">
+                </div>
+                <div class="form-group">
+                    <label for="reg-email">Email Address</label>
+                    <input type="email" id="reg-email" required placeholder="e.g. user@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="reg-password">Password</label>
+                    <input type="password" id="reg-password" required placeholder="At least 6 characters">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+        </section>
+
+        <!-- Section 2: Student CRUD Operations -->
+        <section class="card student-card">
+            <div class="card-header">
+                <div>
+                    <h2>Student Records</h2>
+                    <p class="card-subtitle">Manage all students using generic repository operations</p>
+                </div>
+                <button class="btn btn-success" id="btn-add-student">+ Add Student</button>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by name, email, or course...">
+            </div>
+
+            <div class="table-responsive">
+                <table class="student-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Course</th>
+                            <th>Created Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="student-table-body">
+                        <tr>
+                            <td colspan="7" class="text-center">Please login to load student records.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <!-- Student Modal (Create / Edit) -->
+    <div id="student-modal" class="modal-overlay hidden">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modal-title">Add New Student</h3>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+            <form id="student-form">
+                <input type="hidden" id="student-id">
+                <div class="form-group">
+                    <label for="student-name">Full Name *</label>
+                    <input type="text" id="student-name" required placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="student-email">Email Address *</label>
+                    <input type="email" id="student-email" required placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="student-age">Age *</label>
+                    <input type="number" id="student-age" min="1" max="120" required placeholder="Age">
+                </div>
+                <div class="form-group">
+                    <label for="student-course">Course *</label>
+                    <input type="text" id="student-course" required placeholder="Course Name">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="btn-cancel">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Student</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Simple Toast Banner -->
+    <div id="toast-message" class="toast hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

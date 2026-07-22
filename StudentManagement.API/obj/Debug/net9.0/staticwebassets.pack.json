@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StudentManagement.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StudentManagement.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.StudentManagement.API.props",
+      "PackagePath": "build\\StudentManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.StudentManagement.API.props",
+      "PackagePath": "buildMultiTargeting\\StudentManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.StudentManagement.API.props",
+      "PackagePath": "buildTransitive\\StudentManagement.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

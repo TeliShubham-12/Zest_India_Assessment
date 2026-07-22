@@ -1,0 +1,12 @@
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\bin\Debug\net9.0\StudentManagement.Domain.deps.json
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\bin\Debug\net9.0\StudentManagement.Domain.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\bin\Debug\net9.0\StudentManagement.Domain.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.AssemblyInfoInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.AssemblyInfo.cs
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.csproj.CoreCompileInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.sourcelink.json
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\refint\StudentManagement.Domain.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\StudentManagement.Domain.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Domain\obj\Debug\net9.0\ref\StudentManagement.Domain.dll

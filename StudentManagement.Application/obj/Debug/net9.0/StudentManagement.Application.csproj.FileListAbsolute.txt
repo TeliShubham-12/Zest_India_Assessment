@@ -1,0 +1,16 @@
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.csproj.AssemblyReference.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.AssemblyInfoInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.AssemblyInfo.cs
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.csproj.CoreCompileInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.sourcelink.json
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\bin\Debug\net9.0\StudentManagement.Application.deps.json
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\bin\Debug\net9.0\StudentManagement.Application.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\bin\Debug\net9.0\StudentManagement.Application.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\bin\Debug\net9.0\StudentManagement.Domain.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\bin\Debug\net9.0\StudentManagement.Domain.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentM.589D761C.Up2Date
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\refint\StudentManagement.Application.dll
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\StudentManagement.Application.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Application\obj\Debug\net9.0\ref\StudentManagement.Application.dll

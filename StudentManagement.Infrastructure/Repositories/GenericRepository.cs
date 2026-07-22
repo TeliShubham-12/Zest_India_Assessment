@@ -1,0 +1,56 @@
+using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
+using StudentManagement.Domain.Common;
+using StudentManagement.Domain.Interfaces;
+using StudentManagement.Infrastructure.Data;
+
+namespace StudentManagement.Infrastructure.Repositories;
+
+public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
+{
+    protected readonly ApplicationDbContext _context;
+    protected readonly DbSet<T> _dbSet;
+
+    public GenericRepository(ApplicationDbContext context)
+    {
+        _context = context ?? throw new ArgumentNullException(nameof(context));
+        _dbSet = _context.Set<T>();
+    }
+
+    public async Task<IEnumerable<T>> GetAllAsync()
+    {
+        return await _dbSet.AsNoTracking().ToListAsync();
+    }
+
+    public async Task<T?> GetByIdAsync(int id)
+    {
+        return await _dbSet.FindAsync(id);
+    }
+
+    public async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)
+    {
+        return await _dbSet.AsNoTracking().Where(predicate).ToListAsync();
+    }
+
+    public async Task AddAsync(T entity)
+    {
+        await _dbSet.AddAsync(entity);
+    }
+
+    public Task UpdateAsync(T entity)
+    {
+        _dbSet.Update(entity);
+        return Task.CompletedTask;
+    }
+
+    public Task DeleteAsync(T entity)
+    {
+        _dbSet.Remove(entity);
+        return Task.CompletedTask;
+    }
+
+    public async Task<bool> ExistsAsync(int id)
+    {
+        return await _dbSet.AnyAsync(e => e.Id == id);
+    }
+}

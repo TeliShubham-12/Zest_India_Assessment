@@ -1,0 +1,28 @@
+2026-07-23 00:01:42.642 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 00:01:44.407 +05:30 [WRN] Database migration on startup skipped or failed. Falling back to ensure created.
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'ApplicationDbContext' changes each time it is built. This is usually caused by dynamic values used in a 'HasData' call (e.g. `new DateTime()`, `Guid.NewGuid()`). Add a new migration and examine its contents to locate the cause, and replace the dynamic call with a static, hardcoded value. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.NonDeterministicModel(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\Program.cs:line 157
+2026-07-23 00:01:51.618 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 00:01:51.629 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 00:01:51.631 +05:30 [INF] Hosting environment: Development
+2026-07-23 00:01:51.633 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 00:02:15.085 +05:30 [INF] HTTP GET /index.html responded 200 in 99.8629 ms
+2026-07-23 00:02:15.179 +05:30 [INF] HTTP GET /app.js responded 200 in 28.2619 ms
+2026-07-23 00:02:15.215 +05:30 [INF] HTTP GET /styles.css responded 200 in 12.9193 ms
+2026-07-23 00:02:15.956 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 212.2400 ms
+2026-07-23 00:02:16.230 +05:30 [INF] HTTP GET /api/students responded 401 in 599.5559 ms
+2026-07-23 00:03:21.584 +05:30 [INF] HTTP POST /api/students responded 401 in 7.1171 ms
+2026-07-23 00:03:42.207 +05:30 [INF] HTTP POST /api/students responded 401 in 6.6072 ms
+2026-07-23 00:05:21.735 +05:30 [INF] HTTP GET /swagger responded 301 in 1.8918 ms
+2026-07-23 00:05:22.076 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 329.3469 ms
+2026-07-23 00:05:22.159 +05:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 33.9123 ms
+2026-07-23 00:05:22.197 +05:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 71.4324 ms
+2026-07-23 00:05:22.253 +05:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 148.6969 ms
+2026-07-23 00:05:22.529 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.7600 ms
+2026-07-23 00:05:23.325 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 850.8653 ms
+2026-07-23 00:20:28.598 +05:30 [INF] Application is shutting down...
