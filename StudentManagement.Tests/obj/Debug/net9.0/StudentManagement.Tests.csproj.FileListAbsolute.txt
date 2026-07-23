@@ -1,8 +1,0 @@
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_StudentManagement.Tests
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_StudentManagement.Tests
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.csproj.AssemblyReference.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.GeneratedMSBuildEditorConfig.editorconfig
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.AssemblyInfoInputs.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.AssemblyInfo.cs
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.csproj.CoreCompileInputs.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.Tests\obj\Debug\net9.0\StudentManagement.Tests.sourcelink.json

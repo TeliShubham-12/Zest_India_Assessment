@@ -62,6 +62,11 @@ import { RegisterDto } from '../../models/auth.model';
         <button type="submit" [disabled]="!registerForm.form.valid || isLoading" class="btn btn-primary btn-block">
           {{ isLoading ? 'Registering...' : 'Register' }}
         </button>
+
+        <div class="auth-switch">
+          <span>Already have an account?</span>
+          <button type="button" class="btn-link" (click)="switchToLogin.emit()">Login</button>
+        </div>
       </form>
     </div>
   `,
@@ -81,13 +86,16 @@ import { RegisterDto } from '../../models/auth.model';
     label { display: block; font-weight: 500; font-size: 0.85rem; margin-bottom: 6px; color: #374151; }
     .form-control { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 0.9rem; box-sizing: border-box; }
     .form-control:focus { outline: none; border-color: #4f46e5; }
-    .btn-block { width: 100%; padding: 10px; font-weight: 600; background: #10b981; color: white; border: none; border-radius: 8px; cursor: pointer; }
+    .btn-block { width: 100%; padding: 10px; font-weight: 600; background: #4f46e5; color: white; border: none; border-radius: 8px; cursor: pointer; }
     .btn-block:disabled { opacity: 0.6; cursor: not-allowed; }
     .alert-danger { background: #fee2e2; color: #dc2626; padding: 10px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 16px; }
+    .auth-switch { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.88rem; color: #6b7280; }
+    .btn-link { background: none; border: none; color: #4f46e5; font-weight: 600; font-size: 0.88rem; cursor: pointer; text-decoration: underline; padding: 0; }
   `]
 })
 export class RegisterComponent {
   @Output() registered = new EventEmitter<void>();
+  @Output() switchToLogin = new EventEmitter<void>();
 
   user: RegisterDto = {
     username: '',

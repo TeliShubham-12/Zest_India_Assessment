@@ -26,3 +26,87 @@ System.InvalidOperationException: An error was generated for warning 'Microsoft.
 2026-07-23 00:05:22.529 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.7600 ms
 2026-07-23 00:05:23.325 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 850.8653 ms
 2026-07-23 00:20:28.598 +05:30 [INF] Application is shutting down...
+2026-07-23 00:23:50.342 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 00:23:51.364 +05:30 [WRN] Database migration on startup skipped or failed. Falling back to ensure created.
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'ApplicationDbContext' changes each time it is built. This is usually caused by dynamic values used in a 'HasData' call (e.g. `new DateTime()`, `Guid.NewGuid()`). Add a new migration and examine its contents to locate the cause, and replace the dynamic call with a static, hardcoded value. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.NonDeterministicModel(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\Program.cs:line 157
+2026-07-23 00:23:53.327 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 00:23:53.332 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 00:23:53.334 +05:30 [INF] Hosting environment: Development
+2026-07-23 00:23:53.336 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 00:24:01.122 +05:30 [INF] HTTP GET /index.html responded 200 in 149.3285 ms
+2026-07-23 00:24:01.230 +05:30 [INF] HTTP GET /app.js responded 200 in 32.7622 ms
+2026-07-23 00:24:01.248 +05:30 [INF] HTTP GET /styles.css responded 200 in 2.5166 ms
+2026-07-23 00:24:01.504 +05:30 [INF] HTTP GET /api/students responded 401 in 92.9299 ms
+2026-07-23 00:24:12.102 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 457.6646 ms
+2026-07-23 00:24:12.222 +05:30 [INF] HTTP GET /api/students responded 200 in 115.3453 ms
+2026-07-23 00:24:48.443 +05:30 [INF] HTTP POST /api/auth/register responded 200 in 173.0063 ms
+2026-07-23 00:24:48.468 +05:30 [INF] HTTP GET /api/students responded 200 in 20.0849 ms
+2026-07-23 00:25:00.831 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 14.5817 ms
+2026-07-23 00:25:00.863 +05:30 [INF] HTTP GET /api/students responded 200 in 26.1097 ms
+2026-07-23 00:25:10.482 +05:30 [INF] HTTP POST /api/students responded 201 in 54.5778 ms
+2026-07-23 00:25:10.489 +05:30 [INF] HTTP GET /api/students responded 200 in 2.9594 ms
+2026-07-23 00:25:46.699 +05:30 [INF] HTTP PUT /api/students/4 responded 200 in 68.7665 ms
+2026-07-23 00:25:46.708 +05:30 [INF] HTTP GET /api/students responded 200 in 4.3418 ms
+2026-07-23 00:25:54.667 +05:30 [INF] HTTP DELETE /api/students/1 responded 200 in 23.4025 ms
+2026-07-23 00:25:54.686 +05:30 [INF] HTTP GET /api/students responded 200 in 13.2756 ms
+2026-07-23 00:26:07.006 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 8.3655 ms
+2026-07-23 00:26:07.031 +05:30 [INF] HTTP GET /api/students responded 200 in 3.4220 ms
+2026-07-23 00:26:16.801 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 36.9811 ms
+2026-07-23 00:26:17.126 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 77.6411 ms
+2026-07-23 00:33:45.538 +05:30 [INF] HTTP GET /api/Students responded 401 in 78.2715 ms
+2026-07-23 00:34:17.498 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 435.9636 ms
+2026-07-23 00:34:17.548 +05:30 [INF] HTTP GET /api/students responded 200 in 34.7972 ms
+2026-07-23 00:34:56.996 +05:30 [INF] HTTP POST /api/Auth/register responded 400 in 52.9003 ms
+2026-07-23 00:35:14.840 +05:30 [INF] HTTP POST /api/Auth/register responded 400 in 20.8682 ms
+2026-07-23 00:35:30.233 +05:30 [INF] HTTP POST /api/Auth/register responded 200 in 154.0794 ms
+2026-07-23 00:36:40.119 +05:30 [INF] HTTP GET /api/Students responded 401 in 57.6001 ms
+2026-07-23 00:39:04.260 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 96.4700 ms
+2026-07-23 00:39:54.045 +05:30 [INF] HTTP GET /api/Students responded 401 in 2.8901 ms
+2026-07-23 00:40:35.655 +05:30 [INF] HTTP GET /api/Students responded 200 in 57.9565 ms
+2026-07-23 00:41:47.338 +05:30 [INF] HTTP POST /api/Students responded 201 in 191.7922 ms
+2026-07-23 00:41:59.754 +05:30 [INF] HTTP GET /api/Students responded 200 in 14.4665 ms
+2026-07-23 00:42:32.288 +05:30 [INF] HTTP GET /api/Students/1 responded 404 in 196.3655 ms
+2026-07-23 00:42:57.690 +05:30 [INF] HTTP GET /api/Students/3 responded 200 in 47.7456 ms
+2026-07-23 00:43:24.238 +05:30 [INF] HTTP PUT /api/Students/3 responded 400 in 133.9738 ms
+2026-07-23 00:43:54.884 +05:30 [INF] HTTP PUT /api/Students/3 responded 200 in 43.9386 ms
+2026-07-23 00:44:22.205 +05:30 [INF] HTTP DELETE /api/Students/3 responded 200 in 27.2094 ms
+2026-07-23 20:31:06.780 +05:30 [INF] Application is shutting down...
+2026-07-23 20:31:20.291 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 20:31:21.821 +05:30 [WRN] Database migration on startup skipped or failed. Falling back to ensure created.
+System.InvalidOperationException: An error was generated for warning 'Microsoft.EntityFrameworkCore.Migrations.PendingModelChangesWarning': The model for context 'ApplicationDbContext' changes each time it is built. This is usually caused by dynamic values used in a 'HasData' call (e.g. `new DateTime()`, `Guid.NewGuid()`). Add a new migration and examine its contents to locate the cause, and replace the dynamic call with a static, hardcoded value. See https://aka.ms/efcore-docs-pending-changes. This exception can be suppressed or logged by passing event ID 'RelationalEventId.PendingModelChangesWarning' to the 'ConfigureWarnings' method in 'DbContext.OnConfiguring' or 'AddDbContext'.
+   at Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`1.Log[TLoggerCategory](IDiagnosticsLogger`1 logger, TParam arg)
+   at Microsoft.EntityFrameworkCore.Diagnostics.RelationalLoggerExtensions.NonDeterministicModel(IDiagnosticsLogger`1 diagnostics, Type contextType)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.ValidateMigrations(Boolean useTransaction, String targetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\Program.cs:line 157
+2026-07-23 20:31:24.163 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 20:31:24.176 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 20:31:24.186 +05:30 [INF] Hosting environment: Development
+2026-07-23 20:31:24.189 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 20:31:29.445 +05:30 [INF] HTTP GET /index.html responded 200 in 79.9160 ms
+2026-07-23 20:31:29.556 +05:30 [INF] HTTP GET /app.js responded 200 in 19.7828 ms
+2026-07-23 20:31:29.554 +05:30 [INF] HTTP GET /styles.css responded 200 in 4.9746 ms
+2026-07-23 20:31:30.146 +05:30 [INF] HTTP GET /api/students responded 401 in 57.9708 ms
+2026-07-23 20:31:30.541 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 4.9448 ms
+2026-07-23 20:32:12.199 +05:30 [INF] HTTP GET /app.js responded 200 in 14.3778 ms
+2026-07-23 20:32:12.079 +05:30 [INF] HTTP GET /index.html responded 200 in 6.4179 ms
+2026-07-23 20:32:12.304 +05:30 [INF] HTTP GET /styles.css responded 200 in 11.2691 ms
+2026-07-23 20:32:12.407 +05:30 [INF] HTTP GET /api/students responded 401 in 16.2270 ms
+2026-07-23 20:32:12.849 +05:30 [INF] HTTP GET /favicon.ico responded 404 in 0.7525 ms
+2026-07-23 20:33:17.714 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 1198.7079 ms
+2026-07-23 20:33:18.018 +05:30 [INF] HTTP GET /api/students responded 200 in 282.3179 ms
+2026-07-23 20:54:52.154 +05:30 [INF] HTTP GET /index.html responded 200 in 49.7272 ms
+2026-07-23 20:54:52.355 +05:30 [INF] HTTP GET /api/students responded 401 in 38.0940 ms
+2026-07-23 20:54:57.739 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 416.9232 ms
+2026-07-23 20:54:57.873 +05:30 [INF] HTTP GET /api/students responded 200 in 31.6890 ms
+2026-07-23 20:55:09.523 +05:30 [INF] HTTP GET /index.html responded 304 in 10.4919 ms
+2026-07-23 20:55:09.623 +05:30 [INF] HTTP GET /api/students responded 200 in 16.3530 ms
+2026-07-23 20:55:12.050 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 14.2690 ms
+2026-07-23 20:55:12.094 +05:30 [INF] HTTP GET /api/students responded 200 in 8.1598 ms

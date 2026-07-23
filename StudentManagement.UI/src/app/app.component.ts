@@ -14,15 +14,19 @@ import { AuthService } from './services/auth.service';
     <app-navbar></app-navbar>
 
     <main class="main-container">
-      <!-- Unauthenticated View: Auth Tabs (Login / Register) -->
+      <!-- Unauthenticated View: Single Auth Card -->
       <div *ngIf="!isLoggedIn" class="auth-wrapper">
-        <div class="tab-buttons">
-          <button [class.active]="activeTab === 'login'" (click)="activeTab = 'login'">Login</button>
-          <button [class.active]="activeTab === 'register'" (click)="activeTab = 'register'">Register Account</button>
-        </div>
+        <app-login
+          *ngIf="activeTab === 'login'"
+          (loggedIn)="onAuthSuccess()"
+          (switchToRegister)="activeTab = 'register'"
+        ></app-login>
 
-        <app-login *ngIf="activeTab === 'login'" (loggedIn)="onAuthSuccess()"></app-login>
-        <app-register *ngIf="activeTab === 'register'" (registered)="onAuthSuccess()"></app-register>
+        <app-register
+          *ngIf="activeTab === 'register'"
+          (registered)="onAuthSuccess()"
+          (switchToLogin)="activeTab = 'login'"
+        ></app-register>
       </div>
 
       <!-- Authenticated View: Student CRUD Directory -->
@@ -34,9 +38,6 @@ import { AuthService } from './services/auth.service';
   styles: [`
     .main-container { max-width: 1100px; margin: 30px auto; padding: 0 20px; font-family: 'Inter', system-ui, sans-serif; }
     .auth-wrapper { max-width: 440px; margin: 20px auto; }
-    .tab-buttons { display: flex; gap: 8px; margin-bottom: 20px; background: #e5e7eb; padding: 4px; border-radius: 10px; }
-    .tab-buttons button { flex: 1; padding: 10px; border: none; background: transparent; font-weight: 500; border-radius: 8px; cursor: pointer; color: #4b5563; }
-    .tab-buttons button.active { background: white; color: #111827; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
   `]
 })
 export class AppComponent implements OnInit {

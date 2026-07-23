@@ -14,9 +14,6 @@ public class AuthController : BaseApiController
         _authService = authService;
     }
 
-    /// <summary>
-    /// Register a new user account.
-    /// </summary>
     [HttpPost("register")]
     [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status400BadRequest)]
@@ -36,9 +33,6 @@ public class AuthController : BaseApiController
         return Ok(result);
     }
 
-    /// <summary>
-    /// Authenticate user credentials and issue JWT bearer token.
-    /// </summary>
     [HttpPost("login")]
     [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status400BadRequest)]

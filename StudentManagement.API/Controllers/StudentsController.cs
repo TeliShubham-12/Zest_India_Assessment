@@ -16,9 +16,7 @@ public class StudentsController : BaseApiController
         _studentService = studentService;
     }
 
-    /// <summary>
-    /// Get list of all students.
-    /// </summary>
+
     [HttpGet]
     [ProducesResponseType(typeof(ApiResponse<IEnumerable<StudentDto>>), StatusCodes.Status200OK)]
     public async Task<IActionResult> GetAll()
@@ -27,9 +25,6 @@ public class StudentsController : BaseApiController
         return Ok(result);
     }
 
-    /// <summary>
-    /// Get student details by unique ID.
-    /// </summary>
     [HttpGet("{id:int}")]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status404NotFound)]
@@ -43,9 +38,7 @@ public class StudentsController : BaseApiController
         return Ok(result);
     }
 
-    /// <summary>
-    /// Create and add a new student record.
-    /// </summary>
+
     [HttpPost]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status400BadRequest)]
@@ -65,9 +58,7 @@ public class StudentsController : BaseApiController
         return CreatedAtAction(nameof(GetById), new { id = result.Data!.Id }, result);
     }
 
-    /// <summary>
-    /// Update an existing student record by ID.
-    /// </summary>
+
     [HttpPut("{id:int}")]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<StudentDto>), StatusCodes.Status400BadRequest)]
@@ -90,9 +81,6 @@ public class StudentsController : BaseApiController
         return Ok(result);
     }
 
-    /// <summary>
-    /// Delete a student record by ID.
-    /// </summary>
     [HttpDelete("{id:int}")]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse<bool>), StatusCodes.Status404NotFound)]

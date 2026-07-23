@@ -11,7 +11,7 @@ import { LoginDto } from '../../models/auth.model';
   template: `
     <div class="auth-card">
       <h2>User Login</h2>
-      <p class="subtitle">Enter credentials to issue JWT token</p>
+      <p class="subtitle">Enter credentials to get JWT bearer token</p>
 
       <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
         <div class="form-group">
@@ -22,7 +22,7 @@ import { LoginDto } from '../../models/auth.model';
             name="username"
             [(ngModel)]="credentials.username"
             required
-            placeholder="Username (e.g. admin)"
+            placeholder="Username (default: admin)"
             class="form-control"
           />
         </div>
@@ -35,7 +35,7 @@ import { LoginDto } from '../../models/auth.model';
             name="password"
             [(ngModel)]="credentials.password"
             required
-            placeholder="Password (e.g. Admin@123)"
+            placeholder="Password (default: Admin@123)"
             class="form-control"
           />
         </div>
@@ -47,6 +47,11 @@ import { LoginDto } from '../../models/auth.model';
         <button type="submit" [disabled]="!loginForm.form.valid || isLoading" class="btn btn-primary btn-block">
           {{ isLoading ? 'Authenticating...' : 'Login' }}
         </button>
+
+        <div class="auth-switch">
+          <span>Don't have an account?</span>
+          <button type="button" class="btn-link" (click)="switchToRegister.emit()">Register</button>
+        </div>
       </form>
     </div>
   `,
@@ -69,10 +74,13 @@ import { LoginDto } from '../../models/auth.model';
     .btn-block { width: 100%; padding: 10px; font-weight: 600; background: #4f46e5; color: white; border: none; border-radius: 8px; cursor: pointer; }
     .btn-block:disabled { opacity: 0.6; cursor: not-allowed; }
     .alert-danger { background: #fee2e2; color: #dc2626; padding: 10px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 16px; }
+    .auth-switch { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.88rem; color: #6b7280; }
+    .btn-link { background: none; border: none; color: #4f46e5; font-weight: 600; font-size: 0.88rem; cursor: pointer; text-decoration: underline; padding: 0; }
   `]
 })
 export class LoginComponent {
   @Output() loggedIn = new EventEmitter<void>();
+  @Output() switchToRegister = new EventEmitter<void>();
 
   credentials: LoginDto = {
     username: 'admin',

@@ -24,17 +24,13 @@
     </header>
 
     <div class="container">
-        <!-- Section 1: Authentication (Login & Register) -->
-        <section class="card auth-card">
-            <div class="auth-tabs">
-                <button class="tab-btn active" id="tab-login">Login</button>
-                <button class="tab-btn" id="tab-register">Register</button>
-            </div>
-
+        <!-- Section 1: Authentication Card (Visible when NOT logged in) -->
+        <section class="card auth-card" id="auth-section">
             <!-- Login Form -->
             <form id="login-form" class="form-content">
                 <h3>User Login</h3>
                 <p class="form-desc">Enter your credentials to get a JWT bearer token.</p>
+                
                 <div class="form-group">
                     <label for="login-username">Username</label>
                     <input type="text" id="login-username" value="admin" required placeholder="Username (default: admin)">
@@ -43,13 +39,22 @@
                     <label for="login-password">Password</label>
                     <input type="password" id="login-password" value="Admin@123" required placeholder="Password (default: Admin@123)">
                 </div>
+                
                 <button type="submit" class="btn btn-primary btn-block">Login</button>
+                
+                <div class="auth-divider"></div>
+
+                <div class="auth-switch-box">
+                    <p class="auth-switch-text">Don't have an account?</p>
+                    <button type="button" class="btn btn-secondary btn-block" id="goto-register">Register New Account</button>
+                </div>
             </form>
 
             <!-- Register Form -->
             <form id="register-form" class="form-content hidden">
                 <h3>Register Account</h3>
                 <p class="form-desc">Create a new user account.</p>
+
                 <div class="form-group">
                     <label for="reg-username">Username</label>
                     <input type="text" id="reg-username" required placeholder="Choose a username">
@@ -62,12 +67,20 @@
                     <label for="reg-password">Password</label>
                     <input type="password" id="reg-password" required placeholder="At least 6 characters">
                 </div>
+
                 <button type="submit" class="btn btn-primary btn-block">Register</button>
+
+                <div class="auth-divider"></div>
+
+                <div class="auth-switch-box">
+                    <p class="auth-switch-text">Already have an account?</p>
+                    <button type="button" class="btn btn-secondary btn-block" id="goto-login">Back to Login</button>
+                </div>
             </form>
         </section>
 
-        <!-- Section 2: Student CRUD Operations -->
-        <section class="card student-card">
+        <!-- Section 2: Student CRUD Table Card (Visible ONLY after login) -->
+        <section class="card student-card hidden" id="student-section">
             <div class="card-header">
                 <div>
                     <h2>Student Records</h2>
@@ -95,7 +108,7 @@
                     </thead>
                     <tbody id="student-table-body">
                         <tr>
-                            <td colspan="7" class="text-center">Please login to load student records.</td>
+                            <td colspan="7" class="text-center">Loading student records...</td>
                         </tr>
                     </tbody>
                 </table>
@@ -136,7 +149,7 @@
         </div>
     </div>
 
-    <!-- Simple Toast Banner -->
+    <!-- Toast Notification Banner -->
     <div id="toast-message" class="toast hidden"></div>
 
     <script src="app.js"></script>

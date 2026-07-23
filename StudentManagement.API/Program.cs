@@ -1,6 +1,7 @@
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
@@ -31,7 +32,7 @@ try
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
 
-    // 3. Configure Database (SQL Server with automatic fallback support for seamless running)
+    // 3. Configure Database (SQL Server with automatic fallback)
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     var useInMemoryDb = builder.Configuration.GetValue<bool>("UseInMemoryDatabase");
 
@@ -50,6 +51,7 @@ try
                     maxRetryDelay: TimeSpan.FromSeconds(10),
                     errorNumbersToAdd: null);
             });
+            options.ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning));
         }
     });
 
@@ -104,7 +106,6 @@ try
             }
         });
 
-        // Add JWT Bearer Security Scheme
         options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
         {
             Name = "Authorization",
@@ -148,10 +149,9 @@ try
     using (var scope = app.Services.CreateScope())
     {
         var services = scope.ServiceProvider;
+        var dbContext = services.GetRequiredService<ApplicationDbContext>();
         try
         {
-            var dbContext = services.GetRequiredService<ApplicationDbContext>();
-            // If using real SQL Server, migrate. If in-memory, ensure created.
             if (dbContext.Database.IsSqlServer())
             {
                 dbContext.Database.Migrate();
@@ -164,16 +164,7 @@ try
         }
         catch (Exception ex)
         {
-            Log.Warning(ex, "Database migration on startup skipped or failed. Falling back to ensure created.");
-            try
-            {
-                var dbContext = services.GetRequiredService<ApplicationDbContext>();
-                dbContext.Database.EnsureCreated();
-            }
-            catch (Exception innerEx)
-            {
-                Log.Error(innerEx, "Failed to initialize database.");
-            }
+            Log.Warning(ex, "SQL Server migration on startup skipped or failed. Continuing application startup.");
         }
     }
 
@@ -182,7 +173,6 @@ try
 
     app.UseSerilogRequestLogging();
 
-    // Configure HTTP Request Pipeline
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {

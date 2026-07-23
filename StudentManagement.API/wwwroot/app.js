@@ -16,28 +16,26 @@ function initApp() {
     updateUserStatus();
 
     // Auto load students if token exists
-    fetchStudents();
+    if (jwtToken && currentUser) {
+        fetchStudents();
+    }
 }
 
-// 1. Auth Tabs
+// 1. Auth Form Switching (Login <-> Register)
 function setupAuthTabs() {
-    const tabLogin = document.getElementById('tab-login');
-    const tabRegister = document.getElementById('tab-register');
+    const gotoRegister = document.getElementById('goto-register');
+    const gotoLogin = document.getElementById('goto-login');
     const loginForm = document.getElementById('login-form');
     const registerForm = document.getElementById('register-form');
 
-    tabLogin?.addEventListener('click', () => {
-        tabLogin.classList.add('active');
-        tabRegister.classList.remove('active');
-        loginForm.classList.remove('hidden');
-        registerForm.classList.add('hidden');
+    gotoRegister?.addEventListener('click', () => {
+        loginForm.classList.add('hidden');
+        registerForm.classList.remove('hidden');
     });
 
-    tabRegister?.addEventListener('click', () => {
-        tabRegister.classList.add('active');
-        tabLogin.classList.remove('active');
-        registerForm.classList.remove('hidden');
-        loginForm.classList.add('hidden');
+    gotoLogin?.addEventListener('click', () => {
+        registerForm.classList.add('hidden');
+        loginForm.classList.remove('hidden');
     });
 }
 
@@ -131,15 +129,25 @@ function updateUserStatus() {
     const textEl = document.getElementById('user-info-text');
     const quickBtn = document.getElementById('btn-quick-admin');
     const logoutBtn = document.getElementById('btn-logout');
+    const authSection = document.getElementById('auth-section');
+    const studentSection = document.getElementById('student-section');
 
     if (jwtToken && currentUser) {
         if (textEl) textEl.innerHTML = `Logged in as: <strong>${currentUser.username}</strong>`;
         if (quickBtn) quickBtn.classList.add('hidden');
         if (logoutBtn) logoutBtn.classList.remove('hidden');
+
+        // Hide auth card, show student table section
+        if (authSection) authSection.classList.add('hidden');
+        if (studentSection) studentSection.classList.remove('hidden');
     } else {
         if (textEl) textEl.textContent = 'Not Logged In';
         if (quickBtn) quickBtn.classList.remove('hidden');
         if (logoutBtn) logoutBtn.classList.add('hidden');
+
+        // Show auth card, hide student table section
+        if (authSection) authSection.classList.remove('hidden');
+        if (studentSection) studentSection.classList.add('hidden');
     }
 }
 
@@ -175,6 +183,7 @@ async function fetchStudents() {
             renderStudentTable(studentsList);
         } else if (res.status === 401) {
             tbody.innerHTML = `<tr><td colspan="7" class="text-center">🔒 Authentication Required. Please login to view or edit students.</td></tr>`;
+            logoutUser();
         } else {
             showToast(data.message || 'Failed to load students', 'error');
         }
