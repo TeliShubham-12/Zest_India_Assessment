@@ -20,3 +20,143 @@ Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
    at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
    at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
    at Program.<Main>$(String[] args) in X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\Program.cs:line 146
+2026-07-23 21:50:33.423 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 21:50:34.933 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 21:50:35.342 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 21:50:35.347 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 21:50:35.349 +05:30 [INF] Hosting environment: Development
+2026-07-23 21:50:35.351 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 21:50:45.578 +05:30 [INF] HTTP GET /index.html responded 304 in 81.1355 ms
+2026-07-23 21:50:45.965 +05:30 [INF] HTTP GET /app.js responded 304 in 74.1160 ms
+2026-07-23 21:50:48.273 +05:30 [INF] HTTP GET /api/students responded 200 in 2210.2613 ms
+2026-07-23 21:50:52.310 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 311.1873 ms
+2026-07-23 21:50:52.336 +05:30 [INF] HTTP GET /api/students responded 200 in 19.9727 ms
+2026-07-23 21:52:39.520 +05:30 [INF] HTTP POST /api/auth/register responded 200 in 335.0886 ms
+2026-07-23 21:52:39.555 +05:30 [INF] HTTP GET /api/students responded 200 in 22.5044 ms
+2026-07-23 21:52:54.894 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 18.2636 ms
+2026-07-23 21:52:54.947 +05:30 [INF] HTTP GET /api/students responded 200 in 22.7701 ms
+2026-07-23 21:53:19.087 +05:30 [INF] HTTP PUT /api/students/1 responded 200 in 95.7957 ms
+2026-07-23 21:53:19.099 +05:30 [INF] HTTP GET /api/students responded 200 in 5.8397 ms
+2026-07-23 21:54:05.377 +05:30 [INF] HTTP POST /api/students responded 201 in 70.9712 ms
+2026-07-23 21:54:05.401 +05:30 [INF] HTTP GET /api/students responded 200 in 17.0284 ms
+2026-07-23 21:54:20.301 +05:30 [INF] HTTP DELETE /api/students/4 responded 200 in 28.3144 ms
+2026-07-23 21:54:20.314 +05:30 [INF] HTTP GET /api/students responded 200 in 3.0639 ms
+2026-07-23 21:54:28.289 +05:30 [INF] HTTP POST /api/students responded 201 in 14.8117 ms
+2026-07-23 21:54:28.297 +05:30 [INF] HTTP GET /api/students responded 200 in 2.7161 ms
+2026-07-23 21:54:42.767 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 56.1823 ms
+2026-07-23 21:54:43.143 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 146.8007 ms
+2026-07-23 21:54:59.601 +05:30 [INF] HTTP POST /api/auth/login responded 401 in 20.8667 ms
+2026-07-23 21:59:01.442 +05:30 [INF] Application is shutting down...
+2026-07-23 21:59:15.709 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 21:59:17.463 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 21:59:17.657 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 21:59:17.665 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 21:59:17.672 +05:30 [INF] Hosting environment: Development
+2026-07-23 21:59:17.686 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 22:00:51.847 +05:30 [INF] HTTP GET /index.html responded 200 in 406.2952 ms
+2026-07-23 22:00:53.537 +05:30 [INF] HTTP GET /api/students responded 200 in 1386.9685 ms
+2026-07-23 22:01:00.243 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 345.4766 ms
+2026-07-23 22:01:00.428 +05:30 [INF] HTTP GET /api/students responded 200 in 53.9861 ms
+2026-07-23 22:01:10.204 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 10.9388 ms
+2026-07-23 22:01:10.262 +05:30 [INF] HTTP GET /api/students responded 200 in 30.1236 ms
+2026-07-23 22:01:20.856 +05:30 [INF] HTTP GET /index.html responded 304 in 11.3365 ms
+2026-07-23 22:01:20.952 +05:30 [INF] HTTP GET /api/students responded 200 in 10.2511 ms
+2026-07-23 22:01:50.682 +05:30 [INF] HTTP GET /api/students responded 401 in 36.7700 ms
+2026-07-23 22:04:49.803 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 22:04:51.711 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 22:04:52.019 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 22:04:52.054 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 22:04:52.075 +05:30 [INF] Hosting environment: Development
+2026-07-23 22:04:52.082 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 22:05:05.700 +05:30 [INF] HTTP GET /api/students responded 401 in 73.4485 ms
+2026-07-23 22:05:20.798 +05:30 [INF] HTTP GET /api/students responded 401 in 12.0185 ms
+2026-07-23 22:05:42.706 +05:30 [INF] HTTP GET /api/students responded 200 in 607.7249 ms
+2026-07-23 22:05:46.399 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 198.1746 ms
+2026-07-23 22:05:46.434 +05:30 [INF] HTTP GET /api/students responded 200 in 25.1738 ms
+2026-07-23 22:06:03.410 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 20.7048 ms
+2026-07-23 22:06:03.445 +05:30 [INF] HTTP GET /api/students responded 200 in 16.2642 ms
+2026-07-23 22:06:39.026 +05:30 [INF] Application is shutting down...
+2026-07-23 22:06:52.920 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 22:06:54.403 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 22:06:54.617 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 22:06:54.644 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 22:06:54.647 +05:30 [INF] Hosting environment: Development
+2026-07-23 22:06:54.653 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 22:07:00.314 +05:30 [INF] HTTP GET /index.html responded 304 in 184.5743 ms
+2026-07-23 22:07:00.588 +05:30 [INF] HTTP GET /app.js responded 304 in 35.9777 ms
+2026-07-23 22:07:03.519 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 442.8612 ms
+2026-07-23 22:07:03.646 +05:30 [INF] HTTP GET /api/students responded 200 in 120.9663 ms
+2026-07-23 22:07:32.831 +05:30 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 36.7029 ms
+2026-07-23 22:07:56.989 +05:30 [INF] HTTP GET /index.html responded 200 in 14.6574 ms
+2026-07-23 22:07:57.028 +05:30 [INF] HTTP GET /styles.css responded 200 in 8.9420 ms
+2026-07-23 22:07:57.037 +05:30 [INF] HTTP GET /app.js responded 200 in 14.1846 ms
+2026-07-23 22:07:57.074 +05:30 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.6986 ms
+2026-07-23 22:07:57.451 +05:30 [INF] HTTP GET /api/students responded 200 in 71.4643 ms
+2026-07-23 22:08:23.109 +05:30 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 1.5316 ms
+2026-07-23 22:08:42.077 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 17.8580 ms
+2026-07-23 22:08:42.115 +05:30 [INF] HTTP GET /api/students responded 200 in 32.0389 ms
+2026-07-23 22:09:17.369 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 15.3904 ms
+2026-07-23 22:09:17.389 +05:30 [INF] HTTP GET /api/students responded 200 in 4.3156 ms
+2026-07-23 22:09:32.651 +05:30 [INF] HTTP POST /api/auth/login responded 401 in 19.6348 ms
+2026-07-23 22:11:01.097 +05:30 [INF] HTTP GET /index.html responded 200 in 2.8005 ms
+2026-07-23 22:11:01.154 +05:30 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 0.2642 ms
+2026-07-23 22:11:01.162 +05:30 [INF] HTTP GET /app.js responded 200 in 9.2177 ms
+2026-07-23 22:11:01.163 +05:30 [INF] HTTP GET /styles.css responded 200 in 9.8671 ms
+2026-07-23 22:11:42.811 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 31.8517 ms
+2026-07-23 22:11:42.870 +05:30 [INF] HTTP GET /api/students responded 200 in 40.7478 ms
+2026-07-23 22:12:06.509 +05:30 [INF] Application is shutting down...
+2026-07-23 22:12:19.096 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 22:12:20.463 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 22:12:20.998 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 22:12:21.057 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 22:12:21.068 +05:30 [INF] Hosting environment: Development
+2026-07-23 22:12:21.078 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 22:12:29.867 +05:30 [INF] HTTP GET /api/students responded 401 in 75.6033 ms
+2026-07-23 22:13:33.798 +05:30 [INF] HTTP GET /index.html responded 304 in 66.6442 ms
+2026-07-23 22:13:34.586 +05:30 [INF] HTTP GET /index.html responded 304 in 23.0262 ms
+2026-07-23 22:13:34.728 +05:30 [INF] HTTP GET /index.html responded 304 in 0.8185 ms
+2026-07-23 22:13:34.880 +05:30 [INF] HTTP GET /index.html responded 200 in 19.9522 ms
+2026-07-23 22:13:34.966 +05:30 [INF] HTTP GET /index.html responded 304 in 0.5964 ms
+2026-07-23 22:13:38.303 +05:30 [INF] HTTP GET /index.html responded 304 in 1.9398 ms
+2026-07-23 22:13:38.783 +05:30 [INF] HTTP GET /index.html responded 304 in 1.1134 ms
+2026-07-23 22:13:38.904 +05:30 [INF] HTTP GET /index.html responded 304 in 0.9265 ms
+2026-07-23 22:13:39.122 +05:30 [INF] HTTP GET /index.html responded 304 in 1.7614 ms
+2026-07-23 22:14:02.550 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 749.5057 ms
+2026-07-23 22:14:02.709 +05:30 [INF] HTTP GET /api/students responded 200 in 147.4003 ms
+2026-07-23 22:14:22.058 +05:30 [INF] HTTP GET /api/students responded 401 in 4.6234 ms
+2026-07-23 22:14:24.736 +05:30 [INF] HTTP GET /index.html responded 200 in 6.3088 ms
+2026-07-23 22:14:24.777 +05:30 [INF] HTTP GET /api/students responded 401 in 0.8425 ms
+2026-07-23 22:14:27.894 +05:30 [INF] HTTP GET /index.html responded 304 in 7.1497 ms
+2026-07-23 22:14:27.932 +05:30 [INF] HTTP GET /api/students responded 401 in 5.8435 ms
+2026-07-23 22:14:28.031 +05:30 [INF] HTTP GET /index.html responded 304 in 3.9248 ms
+2026-07-23 22:14:28.064 +05:30 [INF] HTTP GET /api/students responded 401 in 1.6473 ms
+2026-07-23 22:14:28.180 +05:30 [INF] HTTP GET /index.html responded 304 in 0.6779 ms
+2026-07-23 22:14:28.316 +05:30 [INF] HTTP GET /api/students responded 401 in 0.3864 ms
+2026-07-23 22:14:28.316 +05:30 [INF] HTTP GET /index.html responded 304 in 0.5304 ms
+2026-07-23 22:14:28.365 +05:30 [INF] HTTP GET /api/students responded 401 in 2.4021 ms
+2026-07-23 22:14:28.563 +05:30 [INF] HTTP GET /index.html responded 304 in 4.5364 ms
+2026-07-23 22:14:28.616 +05:30 [INF] HTTP GET /api/students responded 401 in 0.3683 ms
+2026-07-23 22:14:36.164 +05:30 [INF] HTTP GET /index.html responded 304 in 1.6003 ms
+2026-07-23 22:14:36.560 +05:30 [INF] HTTP GET /index.html responded 304 in 0.8738 ms
+2026-07-23 22:14:36.727 +05:30 [INF] HTTP GET /index.html responded 304 in 0.6022 ms
+2026-07-23 22:14:36.868 +05:30 [INF] HTTP GET /index.html responded 304 in 0.4275 ms
+2026-07-23 22:14:45.801 +05:30 [INF] HTTP POST /api/auth/register responded 400 in 40.4153 ms
+2026-07-23 22:15:05.392 +05:30 [INF] Application is shutting down...
+2026-07-23 22:31:16.296 +05:30 [INF] Starting Student Management Web API...
+2026-07-23 22:31:18.073 +05:30 [INF] Database initialization completed successfully.
+2026-07-23 22:31:18.259 +05:30 [INF] Now listening on: http://localhost:5257
+2026-07-23 22:31:18.263 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-23 22:31:18.264 +05:30 [INF] Hosting environment: Development
+2026-07-23 22:31:18.265 +05:30 [INF] Content root path: X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API
+2026-07-23 22:31:25.154 +05:30 [INF] HTTP GET /index.html responded 304 in 43.3858 ms
+2026-07-23 22:31:25.244 +05:30 [INF] HTTP GET /app.js responded 304 in 5.3017 ms
+2026-07-23 22:31:25.246 +05:30 [INF] HTTP GET /styles.css responded 304 in 0.9981 ms
+2026-07-23 22:31:46.825 +05:30 [INF] HTTP GET /index.html responded 304 in 1.4749 ms
+2026-07-23 22:31:48.324 +05:30 [INF] HTTP GET /index.html responded 304 in 0.9516 ms
+2026-07-23 22:31:52.343 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 1394.8364 ms
+2026-07-23 22:31:52.471 +05:30 [INF] HTTP GET /api/students responded 200 in 119.8422 ms
+2026-07-23 22:32:47.737 +05:30 [INF] HTTP POST /api/auth/login responded 200 in 23.6947 ms
+2026-07-23 22:32:47.757 +05:30 [INF] HTTP GET /api/students responded 200 in 14.1565 ms
+2026-07-23 22:32:55.470 +05:30 [INF] HTTP DELETE /api/students/1 responded 403 in 22.9615 ms
+2026-07-23 22:34:35.428 +05:30 [INF] HTTP DELETE /api/students/1 responded 403 in 8.3924 ms
+2026-07-23 22:35:54.295 +05:30 [INF] HTTP DELETE /api/students/1 responded 403 in 9.5134 ms

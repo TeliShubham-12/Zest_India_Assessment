@@ -1,11 +1,3 @@
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.csproj.AssemblyReference.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.GeneratedMSBuildEditorConfig.editorconfig
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.AssemblyInfoInputs.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.AssemblyInfo.cs
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.csproj.CoreCompileInputs.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.MvcApplicationPartsAssemblyInfo.cs
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.MvcApplicationPartsAssemblyInfo.cache
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.sourcelink.json
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\appsettings.Development.json
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\appsettings.json
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\StudentManagement.API.staticwebassets.runtime.json
@@ -178,6 +170,14 @@ X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\StudentManagement.Application.pdb
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\StudentManagement.Infrastructure.pdb
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\bin\Debug\net9.0\StudentManagement.Domain.pdb
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.csproj.AssemblyReference.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.GeneratedMSBuildEditorConfig.editorconfig
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.AssemblyInfoInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.AssemblyInfo.cs
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.csproj.CoreCompileInputs.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.MvcApplicationPartsAssemblyInfo.cs
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.MvcApplicationPartsAssemblyInfo.cache
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.sourcelink.json
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\scopedcss\bundle\StudentManagement.API.styles.css
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\staticwebassets.build.json
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\staticwebassets.development.json
@@ -194,6 +194,6 @@ X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.pdb
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\StudentManagement.API.genruntimeconfig.cache
 X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\ref\StudentManagement.API.dll
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\aq2tcpncp5-xyvos3zb7q.gz
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\4xcnvtqekq-yppynvxo5h.gz
-X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\bocmbtdr3i-zz1mq9yxa5.gz
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\aq2tcpncp5-8rnuh2ekhj.gz
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\4xcnvtqekq-1kvs52hrme.gz
+X:\Zest India IT Pvt. Ltd\Zest_India_Assessment\StudentManagement.API\obj\Debug\net9.0\compressed\bocmbtdr3i-822c1rga4t.gz

@@ -76,7 +76,7 @@ async function loginUser(username, password) {
         const data = await res.json();
         if (data.success && data.data) {
             saveSession(data.data.token, { username: data.data.username, role: data.data.role });
-            showToast(`Welcome back, ${data.data.username}!`);
+            showToast(`Welcome back, ${data.data.username}!`, 'success');
             fetchStudents();
         } else {
             showToast(data.message || 'Login failed', 'error');
@@ -97,7 +97,7 @@ async function registerUser(username, email, password) {
         const data = await res.json();
         if (data.success && data.data) {
             saveSession(data.data.token, { username: data.data.username, role: data.data.role });
-            showToast('Account registered successfully!');
+            showToast('Account registered successfully!', 'success');
             fetchStudents();
         } else {
             showToast(data.message || 'Registration failed', 'error');
@@ -290,7 +290,7 @@ async function saveStudent(e) {
 
         const data = await res.json();
         if (res.ok && data.success) {
-            showToast(isEdit ? 'Student updated successfully' : 'Student created successfully');
+            showToast(isEdit ? 'Student updated successfully' : 'Student created successfully', 'success');
             closeStudentModal();
             fetchStudents();
         } else {
@@ -315,7 +315,7 @@ async function deleteStudent(id, name) {
 
         const data = await res.json();
         if (res.ok && data.success) {
-            showToast(`Student #${id} deleted`);
+            showToast(`Student #${id} deleted`, 'success');
             fetchStudents();
         } else {
             showToast(data.message || 'Failed to delete student', 'error');
@@ -325,16 +325,35 @@ async function deleteStudent(id, name) {
     }
 }
 
-function showToast(message) {
-    const toast = document.getElementById('toast-message');
-    if (!toast) return;
+let toastTimer = null;
 
-    toast.textContent = message;
-    toast.classList.remove('hidden');
+function showToast(message, type = 'info') {
+    const toastCard = document.getElementById('toast-card');
+    const iconEl = document.getElementById('toast-icon');
+    const msgEl = document.getElementById('toast-message-text');
 
-    setTimeout(() => {
-        toast.classList.add('hidden');
-    }, 3000);
+    if (!toastCard || !msgEl) return;
+
+    if (toastTimer) clearTimeout(toastTimer);
+
+    toastCard.className = 'toast';
+    if (type === 'error') {
+        toastCard.classList.add('toast-error');
+        if (iconEl) iconEl.textContent = '⛔';
+    } else if (type === 'success') {
+        toastCard.classList.add('toast-success');
+        if (iconEl) iconEl.textContent = '✅';
+    } else {
+        toastCard.classList.add('toast-info');
+        if (iconEl) iconEl.textContent = 'ℹ️';
+    }
+
+    msgEl.textContent = message;
+    toastCard.classList.remove('hidden');
+
+    toastTimer = setTimeout(() => {
+        toastCard.classList.add('hidden');
+    }, 3500);
 }
 
 function escapeHtml(str) {

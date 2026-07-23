@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jvNRT+AMtwR8Xpi4tZLUBMIB+EXHL+ArM5f9G6gZOJM=",
+  "Hash": "duEvputAwhseO3hFme7RnMs3zv3WdYad6xYIYUid598=",
   "Source": "StudentManagement.API",
   "BasePath": "_content/StudentManagement.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-yppynvxo5h.gz",
+      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-1kvs52hrme.gz",
       "SourceId": "StudentManagement.API",
       "SourceType": "Discovered",
       "ContentRoot": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/StudentManagement.API",
-      "RelativePath": "index#[.{fingerprint=yppynvxo5h}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=1kvs52hrme}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,19 +31,19 @@
       "RelatedAsset": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "brk2f207d5",
-      "Integrity": "abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs=",
+      "Fingerprint": "0z6n2mvyv7",
+      "Integrity": "DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html"
     },
     {
-      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-xyvos3zb7q.gz",
+      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-8rnuh2ekhj.gz",
       "SourceId": "StudentManagement.API",
       "SourceType": "Discovered",
       "ContentRoot": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/StudentManagement.API",
-      "RelativePath": "app#[.{fingerprint=xyvos3zb7q}]?.js.gz",
+      "RelativePath": "app#[.{fingerprint=8rnuh2ekhj}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -52,19 +52,19 @@
       "RelatedAsset": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "250c0wjfby",
-      "Integrity": "tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs=",
+      "Fingerprint": "k42kwjn248",
+      "Integrity": "PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js"
     },
     {
-      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-zz1mq9yxa5.gz",
+      "Identity": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-822c1rga4t.gz",
       "SourceId": "StudentManagement.API",
       "SourceType": "Discovered",
       "ContentRoot": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/StudentManagement.API",
-      "RelativePath": "styles#[.{fingerprint=zz1mq9yxa5}]?.css.gz",
+      "RelativePath": "styles#[.{fingerprint=822c1rga4t}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jpsjng33zd",
-      "Integrity": "F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490=",
+      "Fingerprint": "ujuzw1pyyq",
+      "Integrity": "lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xyvos3zb7q",
-      "Integrity": "2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8=",
+      "Fingerprint": "8rnuh2ekhj",
+      "Integrity": "xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.js"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yppynvxo5h",
-      "Integrity": "SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo=",
+      "Fingerprint": "1kvs52hrme",
+      "Integrity": "PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zz1mq9yxa5",
-      "Integrity": "Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs=",
+      "Fingerprint": "822c1rga4t",
+      "Integrity": "kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles.css"
@@ -145,13 +145,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.js",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-xyvos3zb7q.gz",
+      "Route": "app.8rnuh2ekhj.js",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-8rnuh2ekhj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000370233247"
+          "Quality": "0.000348310693"
         }
       ],
       "ResponseHeaders": [
@@ -161,19 +161,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2700"
+          "Value": "2870"
         },
         {
           "Name": "ETag",
-          "Value": "\"tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs=\""
+          "Value": "\"PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -189,18 +189,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8=\""
+          "Value": "W/\"xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "8rnuh2ekhj"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8="
+          "Value": "sha256-xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc="
         }
       ]
     },
     {
-      "Route": "app.js",
+      "Route": "app.8rnuh2ekhj.js",
       "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -210,7 +218,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11837"
+          "Value": "12539"
         },
         {
           "Name": "Content-Type",
@@ -218,121 +226,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8=\""
+          "Value": "\"xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8="
-        }
-      ]
-    },
-    {
-      "Route": "app.js.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-xyvos3zb7q.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2700"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs="
-        }
-      ]
-    },
-    {
-      "Route": "app.xyvos3zb7q.js",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-xyvos3zb7q.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000370233247"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2700"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xyvos3zb7q"
+          "Value": "8rnuh2ekhj"
         },
         {
           "Name": "label",
@@ -340,13 +248,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8="
+          "Value": "sha256-xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc="
         }
       ]
     },
     {
-      "Route": "app.xyvos3zb7q.js",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js",
+      "Route": "app.8rnuh2ekhj.js.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-8rnuh2ekhj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -355,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11837"
+          "Value": "2870"
         },
         {
           "Name": "Content-Type",
@@ -363,56 +271,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8=\""
+          "Value": "\"PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xyvos3zb7q"
-        },
-        {
-          "Name": "label",
-          "Value": "app.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2S+64jMW5e4OWGEsR6Udrdnj7yz/g4aiW+5TK6lxiz8="
-        }
-      ]
-    },
-    {
-      "Route": "app.xyvos3zb7q.js.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-xyvos3zb7q.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2700"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:38:07 GMT"
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -430,7 +293,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xyvos3zb7q"
+          "Value": "8rnuh2ekhj"
         },
         {
           "Name": "label",
@@ -438,18 +301,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tvuTC1b31ipwBTQjsM/GW85nX8xU/AB0ExxjRwufZRs="
+          "Value": "sha256-PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-yppynvxo5h.gz",
+      "Route": "app.js",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-8rnuh2ekhj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000578703704"
+          "Quality": "0.000348310693"
         }
       ],
       "ResponseHeaders": [
@@ -459,15 +322,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1727"
+          "Value": "2870"
         },
         {
           "Name": "ETag",
-          "Value": "\"abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs=\""
+          "Value": "\"PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -483,22 +346,167 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo=\""
+          "Value": "W/\"xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo="
+          "Value": "sha256-xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "app.js",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xKxbVBN0Rt1o5Crk0BO2jwLcJNhX74zVfeMUBOMevxc="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\aq2tcpncp5-8rnuh2ekhj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:03:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PHy4UVLfTNLAKb4Ef2ecrhzM9+9b3NS8jd5P4Sy6rfA="
+        }
+      ]
+    },
+    {
+      "Route": "index.1kvs52hrme.html",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-1kvs52hrme.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000557103064"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1kvs52hrme"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA="
+        }
+      ]
+    },
+    {
+      "Route": "index.1kvs52hrme.html",
       "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -508,7 +516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6982"
+          "Value": "7214"
         },
         {
           "Name": "Content-Type",
@@ -516,121 +524,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo=\""
+          "Value": "\"PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-yppynvxo5h.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1727"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs="
-        }
-      ]
-    },
-    {
-      "Route": "index.yppynvxo5h.html",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-yppynvxo5h.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000578703704"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1727"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yppynvxo5h"
+          "Value": "1kvs52hrme"
         },
         {
           "Name": "label",
@@ -638,13 +546,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo="
+          "Value": "sha256-PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA="
         }
       ]
     },
     {
-      "Route": "index.yppynvxo5h.html",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html",
+      "Route": "index.1kvs52hrme.html.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-1kvs52hrme.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -653,7 +561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6982"
+          "Value": "1794"
         },
         {
           "Name": "Content-Type",
@@ -661,56 +569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo=\""
+          "Value": "\"DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yppynvxo5h"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SuYf4QFEv33DA7Kp2kzsC7C1TivOBlb9nU/oSvFwcGo="
-        }
-      ]
-    },
-    {
-      "Route": "index.yppynvxo5h.html.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-yppynvxo5h.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1727"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:41:41 GMT"
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -728,7 +591,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "yppynvxo5h"
+          "Value": "1kvs52hrme"
         },
         {
           "Name": "label",
@@ -736,18 +599,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-abNTE7UocRDZEN/HOdKu6S2pbC7kHWwO+ignYyNBCzs="
+          "Value": "sha256-DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4="
         }
       ]
     },
     {
-      "Route": "styles.css",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-zz1mq9yxa5.gz",
+      "Route": "index.html",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-1kvs52hrme.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000651465798"
+          "Quality": "0.000557103064"
         }
       ],
       "ResponseHeaders": [
@@ -757,15 +620,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1534"
+          "Value": "1794"
         },
         {
           "Name": "ETag",
-          "Value": "\"F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490=\""
+          "Value": "\"DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -781,22 +644,167 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs=\""
+          "Value": "W/\"PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs="
+          "Value": "sha256-PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA="
         }
       ]
     },
     {
-      "Route": "styles.css",
+      "Route": "index.html",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PzTHsn0cMhuyEK3lLK5mFD3Mhr7W2v2COWrF5RS2BtA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\4xcnvtqekq-1kvs52hrme.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE2w/65MaP0uGnB9ebPanBffTxYiZs7ChnGuNrK7zn4="
+        }
+      ]
+    },
+    {
+      "Route": "styles.822c1rga4t.css",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-822c1rga4t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000545553737"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "822c1rga4t"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.822c1rga4t.css",
       "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -806,7 +814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5722"
+          "Value": "6754"
         },
         {
           "Name": "Content-Type",
@@ -814,121 +822,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs=\""
+          "Value": "\"kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs="
-        }
-      ]
-    },
-    {
-      "Route": "styles.css.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-zz1mq9yxa5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1534"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490="
-        }
-      ]
-    },
-    {
-      "Route": "styles.zz1mq9yxa5.css",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-zz1mq9yxa5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000651465798"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1534"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zz1mq9yxa5"
+          "Value": "822c1rga4t"
         },
         {
           "Name": "label",
@@ -936,13 +844,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs="
+          "Value": "sha256-kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA="
         }
       ]
     },
     {
-      "Route": "styles.zz1mq9yxa5.css",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css",
+      "Route": "styles.822c1rga4t.css.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-822c1rga4t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -951,7 +859,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5722"
+          "Value": "1832"
         },
         {
           "Name": "Content-Type",
@@ -959,56 +867,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs=\""
+          "Value": "\"lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zz1mq9yxa5"
-        },
-        {
-          "Name": "label",
-          "Value": "styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Yc5hncP2OKztRamvpVr3c2dHjxjcIlGiknlMn6X1lvs="
-        }
-      ]
-    },
-    {
-      "Route": "styles.zz1mq9yxa5.css.gz",
-      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-zz1mq9yxa5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1534"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 23 Jul 2026 15:43:18 GMT"
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1026,7 +889,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zz1mq9yxa5"
+          "Value": "822c1rga4t"
         },
         {
           "Name": "label",
@@ -1034,7 +897,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-F78kL5NQ3bBwgk+Kzjagyp4MyCx9TpeMMfNommMx490="
+          "Value": "sha256-lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-822c1rga4t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000545553737"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kP2WuY4hytWoB+IwzPikDiNjbF5dep0PpC55n+pVCCA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "X:\\Zest India IT Pvt. Ltd\\Zest_India_Assessment\\StudentManagement.API\\obj\\Debug\\net9.0\\compressed\\bocmbtdr3i-822c1rga4t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2026 19:02:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lqagTz0MaYL7U/FQFhPtfOV1yAoN6uurtSd8gBslbJE="
         }
       ]
     }
